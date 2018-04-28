@@ -10,7 +10,7 @@ class Animal():
 
 class Sound():
     """abstract class"""
-    def __inint__(self):
+    def __init__(self):
         pass
 
 class DogSound(Sound):
