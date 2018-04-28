@@ -52,16 +52,24 @@ class HasHorner(Decorator):
     def sound(self):
         return str(self.animal.sound() + '. But I also has a horn')
 
+if __name__ == "__main__":
 
-horse = Horse("Horse Ace")
-giraffe = LongNecker(Horse("Giraffe LooLoo"))
-pegasus = HasWingser(Horse("Pegasus Peggy"))
-unicorn = HasHorner(Horse("Unicorn Rainbowie"))
-unicorn_giraffe = HasHorner(LongNecker(Horse("Unicron Giraffe Leonid")))
+    horse = Horse("Horse Ace")
+    giraffe = LongNecker(Horse("Giraffe LooLoo"))
+    pegasus = HasWingser(Horse("Pegasus Peggy"))
+    unicorn = HasHorner(Horse("Unicorn Rainbowie"))
+    unicorn_giraffe = HasHorner(LongNecker(Horse("Unicron Giraffe Leonid")))
 
 
-print(horse.sound())
-print(giraffe.sound())
-print(pegasus.sound())
-print(unicorn.sound())
-print(unicorn_giraffe.sound())
+    print(horse.sound())
+    print(giraffe.sound())
+    print(pegasus.sound())
+    print(unicorn.sound())
+    print(unicorn_giraffe.sound())
+
+    #OUTPUT:
+    # My name is Horse Ace. I am like a Horse
+    # My name is Giraffe LooLoo. I am like a Horse. But I also has a long neck
+    # My name is Pegasus Peggy. I am like a Horse. But I also has a pair of wings
+    # My name is Unicorn Rainbowie. I am like a Horse. But I also has a horn
+    # My name is Unicron Giraffe Leonid. I am like a Horse. But I also has a long neck. But I also has a horn
