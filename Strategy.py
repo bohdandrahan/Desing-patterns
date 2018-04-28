@@ -37,6 +37,7 @@ if __name__ == "__main__":
     leo.make_sound()
 
     #OUTPUT:
-    # Woof!
-    # Meow!
-    # Big MEOW!
+    # dog Rex says Woof!
+    # cat Fluffy says Meow!
+    # fat cat Leo says Big MEOW!
+ 
