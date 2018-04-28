@@ -43,7 +43,7 @@ class Leaf(Component):
         self.price = float(price)
 
 if __name__ == "__main__":
-
+    
     simple_part1 = Leaf('simple_part1', 1)
     simple_part2 = Leaf('simple_part2', 2)
     

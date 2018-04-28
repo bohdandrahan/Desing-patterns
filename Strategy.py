@@ -25,8 +25,9 @@ class BigCatSound(Sound):
     def get(self):
         return "Big MEOW!"
 
-        
+
 if __name__ == "__main__":
+    
     rex = Animal('dog Rex', DogSound)
     fluffy = Animal('cat Fluffy', CatSound)
     leo = Animal('fat cat Leo', BigCatSound)

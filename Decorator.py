@@ -60,7 +60,6 @@ if __name__ == "__main__":
     unicorn = HasHorner(Horse("Unicorn Rainbowie"))
     unicorn_giraffe = HasHorner(LongNecker(Horse("Unicron Giraffe Leonid")))
 
-
     print(horse.sound())
     print(giraffe.sound())
     print(pegasus.sound())
