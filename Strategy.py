@@ -6,7 +6,7 @@ class Animal():
         self.sound = Sound()
 
     def make_sound(self):
-        print(self.sound.get())
+        print(self.name + " says " + self.sound.get())
 
 class Sound():
     """abstract class"""
@@ -27,13 +27,13 @@ class BigCatSound(Sound):
 
 
 if __name__ == "__main__":
-    
+
     rex = Animal('dog Rex', DogSound)
     fluffy = Animal('cat Fluffy', CatSound)
     leo = Animal('fat cat Leo', BigCatSound)
 
     rex.make_sound()
-    mike.make_sound()
+    fluffy.make_sound()
     leo.make_sound()
 
     #OUTPUT:
