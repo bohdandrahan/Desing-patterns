@@ -5,6 +5,7 @@ It is not a list of perfect abstract examples nor
  the real world cases. <br>
  It is rather a try to recreate the patterns
   in a way I understood them. <br>
+I've tried to keep it as simple as possible, to help understand the core. <br> 
 
 Feel free to use it as an example. <br>
 If you have any questions or suggestions feel free to contact me.
