@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
 
     # moving form A to B
-    # Vehicle: Boeing 747
+    # Vehicle: oBeing 747
     # Speed: 500 mph
     # Number of seats: 250
     # Horsepower: 95710
